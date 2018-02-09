@@ -15,5 +15,8 @@
   ],
   "repository": "adazzle/react-data-grid",
   "author": "Adazzle",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
 }

@@ -7,7 +7,7 @@ require('../../../themes/react-data-grid-header.css');
 
 import PropTypes from 'prop-types';
 
-function simpleCellRenderer(objArgs: {column: {name: string}}): ReactElement {
+function simpleCellRenderer(objArgs) {
   let headerText = objArgs.column.rowType === 'header' ? objArgs.column.name : '';
   return <div className="widget-HeaderCell__value">{headerText}</div>;
 }
